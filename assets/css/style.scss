@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header.post-header {
+	background: transparent;
+}
+
+#main-content h1:before,
+#main-content h2:before,
+#main-content h3:before,
+h4:before,
+h5:before,
+h6:before {
+	padding-right: 0;
+	margin-left: 0;
+	content: none;
+}
